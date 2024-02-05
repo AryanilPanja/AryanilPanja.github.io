@@ -1,14 +1,16 @@
-window.onscroll = function(){stickyfxn()};
+// window.onscroll = function(){
+//     stickyFunction()
+// };
 
-let navbar = document.getElementById('navbar');
+// let navbar = document.getElementById('navbar');
+// let originalOffset = navbar.offsetTop;
+// // let sticky = navbar.offsetTop;
 
-let sticky = navbar.offsetTop;
-
-function stickyfxn(){
-    if(window.pageYOffset >= sticky){
-        navbar.classList.add('sticky');
-    }
-    else{
-        navbar.classList.remove('sticky');
-    }
-}
+// function stickyFunction(){
+//     if(window.scrollY >= originalOffset){
+//         navbar.classList.add('sticky');
+//     }
+//     else{
+//         navbar.classList.remove('sticky');
+//     }
+// }
