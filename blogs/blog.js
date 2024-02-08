@@ -1,10 +1,4 @@
-
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  } 
-
-  let isLiked = false;
+let isLiked = false;
     let likeCounter = 0;
 
     function toggleLike() {
@@ -12,10 +6,10 @@ function myFunction() {
         const likeCounterElement = document.getElementById('like-counter');
 
         if (isLiked) {
-            likeImage.src = 'heart_empty.png';
+            likeImage.src = '../images/heart_empty.png';
             likeCounter--;
         } else {
-            likeImage.src = 'heart_filled.png';
+            likeImage.src = '../images/heart_filled.png';
             likeCounter++;
         }
 
@@ -23,3 +17,8 @@ function myFunction() {
 
         isLiked = !isLiked;
     }
+
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      } 

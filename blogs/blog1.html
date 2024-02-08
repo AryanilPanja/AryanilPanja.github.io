@@ -1,0 +1,66 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog1</title>
+        <link rel="stylesheet" href="./blog.css">
+        <script src="./blog.js"></script>
+</head>
+<body>
+    <div id="navbar" class="sticky">
+        <a href="../index.html">Home</a>
+
+        <button class="lm-mode" onclick="myFunction()">Light/Dark Button</button>
+
+    </div>
+
+    <div id="blog">
+        <div class="title">The Evolution of Mobile Phones: A Journey Through Time and Technology</div>
+        <div class="content">
+            <p><strong>Introduction:</strong> Mobile phones have become an indispensable part of our daily lives, transforming the way we communicate, work, and entertain ourselves. In this blog, we'll take a fascinating journey through the evolution of mobile phones, from the humble beginnings to the cutting-edge devices we use today.</p>
+    
+            <h2>1. The Birth of Mobile Communication:</h2>
+            <p>The concept of mobile communication dates back to the early 20th century, with the first mobile phone call made by Martin Cooper in 1973. The device, known as the Motorola DynaTAC, weighed a whopping 2.2 pounds and had a battery life of just 30 minutes. Despite its limitations, this groundbreaking moment paved the way for a revolution in communication.</p>
+    
+            <h2>2. The Rise of the Flip Phone Era:</h2>
+            <p>In the 1990s, we witnessed the rise of the iconic flip phones. These sleek and compact devices, such as the Motorola Razr and Nokia 7110, became status symbols and represented a shift towards more portable and stylish mobile phones. The introduction of text messaging during this era further changed the way we communicate, giving rise to a new era of quick and convenient messaging.</p>
+
+            <h2>3. The Smartphone Revolution:</h2>
+            <p>The true revolution in mobile technology came with the advent of smartphones. The launch of the iPhone in 2007 by Apple marked a turning point, introducing a touch screen interface and a wide range of applications. Smartphones became powerful mini-computers, enabling users to browse the internet, take high-quality photos, and access a plethora of apps for various purposes.</p>
+
+            <h2>4. Android vs. iOS: The Battle of Operating System</h2>
+            <p>The rise of smartphones also brought about the competition between operating systems, mainly Android and iOS. While Android provides a more customizable experience with a wide range of device options, iOS boasts a seamless ecosystem and regular updates. This ongoing battle continues to shape the mobile phone landscape and provides users with diverse options based on their preferences.</p>
+
+            <h2>5. The Era of Foldable Phones:</h2>
+            <p>In recent years, manufacturers like Samsung and Huawei have introduced foldable phones, pushing the boundaries of design and functionality. These devices offer users a unique experience by combining the portability of a traditional smartphone with the larger screen size of a tablet when unfolded. The advent of foldable technology represents another exciting chapter in the ever-evolving world of mobile phones.</p>
+
+    
+            <h2>Conclusion:</h2>
+            <p>From the bulky handheld devices of the 1970s to the sleek and powerful smartphones of today, the evolution of mobile phones has been nothing short of remarkable. As technology continues to advance, we can only imagine what the future holds for mobile communication. One thing is for certain – mobile phones will remain at the forefront of our connected world, shaping the way we live, work, and communicate for years to come.</p>
+        </div>
+    </div>
+
+    <div class="like-counter">
+        <button class="like-button" onclick="toggleLike()">
+            <img id="like-image" style="height: 10%; width: 30%; cursor: pointer; background-color: white;" src="../images/heart_empty.png" alt="">
+        </button>
+        <span id="like-counter">0</span>
+    </div>
+
+    <div class="comments">
+        <p style="font-size: xx-large; margin-left: 10%;">Enter your comments</p>
+        <textarea rows="20" cols="90" class="comment" form="usrform">
+            Enter your comment here...</textarea>
+    </div>
+    <div class="replies">
+        <div class="username">Rohit</div>
+        <div class="stuff">This is very inspiring and good!!</div>
+    </div>
+    <div class="replies">
+        <div class="username">Divya</div>
+        <div class="stuff">Awesome job keep the great work!!!!!</div>
+    </div>
+    
+
+</body>
+</html>
